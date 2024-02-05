@@ -130,7 +130,7 @@ public class ApiConfig {
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
         String apiUrl = Hawk.get(HawkConfig.API_URL, "https://jihulab.com/mfkdy/cy/-/raw/main/Lite.json");
         if (apiUrl.isEmpty()) {
-            callback.error("-1");
+            callback.error("关注[X开源精粹]公众号，获取最新的[X影视]数据源");
             return;
         }
         File cache = new File(App.getInstance().getFilesDir().getAbsolutePath() + "/" + MD5.encode(apiUrl));
@@ -187,7 +187,7 @@ public class ApiConfig {
                             callback.success();
                         } catch (Throwable th) {
                             th.printStackTrace();
-                            callback.error("解析配置失败");
+                            callback.error("解析配置失败\n关注[X开源精粹]公众号");
                         }
                     }
 
