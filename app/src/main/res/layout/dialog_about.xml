@@ -50,21 +50,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="项目地址"
+        android:text="公众号"
         android:textColor="@color/text_gray"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="https://github.com/XiaoRanLiu3119/TVBoxOS-Mobile"
+        android:text="[X开源精粹]，关注不迷路，让生活简单而精彩"
         android:textIsSelectable="true"
         android:layout_marginTop="4dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="修改自"
+        android:text="出自"
         android:textColor="@color/text_gray"
         />
 
