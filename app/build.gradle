@@ -5,7 +5,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId 'com.github.tvbox.osc.XFilm'
+        applicationId 'com.github.tvbox.osc.xfilm'
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 30
