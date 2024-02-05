@@ -5,11 +5,11 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId 'com.github.tvbox.osc'
+        applicationId 'com.github.tvbox.osc.XFilm'
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 30
-        versionName '1.1.0'
+        versionName '10.1.0'
         multiDexEnabled true
         //设置room的Schema的位置
         javaCompileOptions {
@@ -31,7 +31,7 @@ android {
 
         // Apk 输出配置
         variant.outputs.all { output ->
-            outputFileName = 'MBox_v' + variant.versionName + '_' + variant.buildType.name
+            outputFileName = 'XFilm_v' + variant.versionName + '_' + variant.buildType.name
             if (variant.buildType.name == buildTypes.release.getName()) {
                 outputFileName += '_' + new Date().format("yyyyMMdd")
             }
