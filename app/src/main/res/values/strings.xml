@@ -1,9 +1,9 @@
 <resources>
     <!--  app名称   -->
-    <string name="app_name">X影视</string>
+    <string name="app_name">X动漫</string>
 
-    <string name="about">关注[X开源精粹]公众号，回家不迷路，获取更多精彩。
-        \n基于TVBox开发，代码开源，不收集或上传任何数据。仅用于个人学习和参考，请勿传播，安装后请于24小时内删除。
+    <string name="about">
+        \nX动漫基于开源TVBox开发，不收集或上传任何数据。仅用于个人学习和参考，请勿传播，安装后请于24小时内删除。
         </string>
 
     <string name="subs_use_tip">
